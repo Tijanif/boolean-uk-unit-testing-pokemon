@@ -1,8 +1,10 @@
+import React from 'react';
+
 function StatsList(props) {
   const { stats } = props;
 
   return (
-    <ul className="stats-list">
+    <ul className='stats-list'>
       {stats.map((statItem, index) => {
         const { stat, base_stat } = statItem;
         return (

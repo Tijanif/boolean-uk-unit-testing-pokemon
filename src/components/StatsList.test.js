@@ -1,3 +1,6 @@
+import '@testing-library/jest-dom';
+import { render, screen } from '@testing-library/react';
+
 // Test the stats list:
 //  - heading (can we give it a heading without changing the UI)
 //  - list
